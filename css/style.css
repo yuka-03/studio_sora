@@ -170,3 +170,36 @@ ul {
   margin: 0;
   padding: 0;
 }
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.features__item {
+  width: 320px;
+  height: 480px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 3px #b5b5b5;
+  text-align: center;
+}
+.features__text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #564D4D;
+}
+.features__item img {
+  width: 320px;
+  height: auto;
+}
+.features__title::after {
+  content: "";
+  display: block;
+  width: 256px;
+  height: 4px;
+  margin-top: 16px;
+  border-radius: 2px;
+  background-color: #8FA8A0;
+}
